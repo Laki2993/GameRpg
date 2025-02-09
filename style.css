@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width:380px;
+    height:700px;
+    overflow: hidden;
+    background-color: black;
+}
+
+main{
+    padding: 0;
+    margin: 0;
+    width: 380px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Place{
+    position: relative;
+    transition: 1s;
+    width: 760px;
+    height: 884px;
+    background-image: url(Fon.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+
+.dark{
+    z-index: 3;
+    width: 380px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-image: url(dark.png);
+    background-color: #ffffff00;
+    border: none;
+}
+   
+
+.User{
+    transition: 0.3s;
+    width: 37px;
+    height: 50px;
+    background-image: url(RightMove.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+}
+
+.Game_bar{
+    width: 380px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 9, 9);
+}
+
+.nav{
+    width: 380px;
+    height: 180px;
+    display: grid;
+    grid-template-rows: 60px 60px 60px;
+}
+
+.Up{
+    display: flex;
+    justify-content: center;
+}
+
+.LeftRight{
+    display: flex;
+    justify-content: center;
+    gap:60px;
+}
+
+.Down{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 60px;
+    height: 60px;
+}
+
+.btn:focus{
+    transform: scale(1.1);
+    transition: 0.3s;
+    width: 60px;
+    height: 60px;
+}
+
+#Up{
+    background-image: url(Up.png);
+    background-size: contain;
+    background-color: #ffffff00;
+    border: none;
+}
+
+#Left{
+    width: 60px;
+    height: 60px;
+    background-image: url(Left.png);
+    background-size: contain;
+    background-color: #ffffff00;
+    border: none;
+}
+
+#Right{
+    width: 60px;
+    height: 60px;
+    background-image: url(Right.png);
+    background-size: contain;
+    background-color: #ffffff00;
+    border: none;
+}
+
+#Down{
+    width: 60px;
+    height: 60px;
+    background-image: url(Down.png);
+    background-size: contain;
+    background-color: #ffffff00;
+    border: none;
+}
+
+
+.Gold{
+    position: relative;
+    right: -22px;    
+    width: 10px;
+    height: 10px;
+    background-image: url(coin_15174541.png);
+    background-size: contain;
+    background-color: #ffffff00;
+    z-index: 2;
+}
+
+h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bar{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    text-shadow: 0 0 8px #ffffff;
+}
+
+
+/*115
